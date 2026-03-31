@@ -1,0 +1,51 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.scrms:scrms-backend >-----------------------
+[INFO] Building scrms-backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ scrms-backend ---
+[INFO] Deleting C:\Users\shivani reddy\Downloads\scrms-backend-fixed\scrms-backend-fixed\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ scrms-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ scrms-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 57 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/shivani reddy/Downloads/scrms-backend-fixed/scrms-backend-fixed/src/main/java/com/scrms/security/JwtUtil.java: C:\Users\shivani reddy\Downloads\scrms-backend-fixed\scrms-backend-fixed\src\main\java\com\scrms\security\JwtUtil.java uses or overrides a deprecated API.
+[INFO] /C:/Users/shivani reddy/Downloads/scrms-backend-fixed/scrms-backend-fixed/src/main/java/com/scrms/security/JwtUtil.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /C:/Users/shivani reddy/Downloads/scrms-backend-fixed/scrms-backend-fixed/src/main/java/com/scrms/dto/response/AuthResponse.java:[15,20] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/shivani reddy/Downloads/scrms-backend-fixed/scrms-backend-fixed/src/main/java/com/scrms/service/impl/AuthServiceImpl.java:[35,31] cannot find symbol
+  symbol:   method generateToken(org.springframework.security.core.Authentication)
+  location: variable jwtUtil of type com.scrms.security.JwtUtil
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.501 s
+[INFO] Finished at: 2026-03-31T11:42:54+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project scrms-backend: Compilation failure
+[ERROR] /C:/Users/shivani reddy/Downloads/scrms-backend-fixed/scrms-backend-fixed/src/main/java/com/scrms/service/impl/AuthServiceImpl.java:[35,31] cannot find symbol
+[ERROR]   symbol:   method generateToken(org.springframework.security.core.Authentication)
+[ERROR]   location: variable jwtUtil of type com.scrms.security.JwtUtil
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
