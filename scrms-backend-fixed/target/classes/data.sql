@@ -1,0 +1,2 @@
+-- Roles and Users are seeded via DataSeeder.java (runs on startup)
+-- This file is intentionally minimal; schema is auto-created by Hibernate.
